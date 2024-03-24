@@ -8,18 +8,14 @@ const AlbumCard = () => {
       onMouseOver={() => setIsActive(true)}
       onMouseLeave={() => setIsActive(false)}
     >
-      <img
-        src="/src/assets/coverAlbumLogo.png"
-        alt="coverAlbum-icon"
-        className=""
-      />
+      <img src="/coverAlbumLogo.png" alt="coverAlbum-icon" className="" />
       <div className="flex flex-col items-start gap-y-1 pt-4 px-5">
         <h3 className="font-raleway font-bold text-[22px] leading-[25.83px] ">
           Jaime Cantante
         </h3>
         <div className="flex justify-start items-center gap-x-1">
           <img
-            src="/src/assets/userLogo.png"
+            src="/userLogo.png"
             alt="user-logo"
             className="w-[16px] h-[16px] rounded-full object-cover"
           />
@@ -35,17 +31,17 @@ const AlbumCard = () => {
           } `}
         >
           <img
-            src="/src/assets/agreementIcon.png"
+            src="/agreementIcon.png"
             alt="agreement-icon"
             className="w-[21px] h-[21px]"
           />
           <img
-            src="/src/assets/shoppingIcon.png"
+            src="/shoppingIcon.png"
             alt="shoppig-icon"
             className="w-[21px] h-[21px]"
           />
           <img
-            src="/src/assets/heartIcon.png"
+            src="/heartIcon.png"
             alt="heart-icon"
             className="w-[21px] h-[21px]"
           />

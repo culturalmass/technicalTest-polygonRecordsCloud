@@ -15,11 +15,7 @@ const Hero = () => {
             </button>
           </div>
         </div>
-        <img
-          src="/src/assets/heroIcon.png"
-          alt="hero-icon"
-          className="md:ml-0"
-        />
+        <img src="/heroIcon.png" alt="hero-icon" className="md:ml-0" />
       </div>
     </section>
   );

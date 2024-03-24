@@ -3,13 +3,13 @@ const NavBar = () => {
     <nav className="flex justify-center font-raleway w-full">
       <div className="flex justify-between items-center w-[1440px] h-[82px] gap-x-5  pl-12 pr-10">
         <img
-          src="/src/assets/logo.png"
+          src="/logo.png"
           alt="logo-icon"
           className="w-[145px] h-[37px] cursor-pointer"
         />
         <div className="flex items-center">
           <img
-            src="/src/assets/searchIcon.png"
+            src="/searchIcon.png"
             alt="search-icon"
             className="relative -mr-8 h-3 w-3"
           />
@@ -21,7 +21,7 @@ const NavBar = () => {
         <div className="flex justify-between items-center gap-x-4 font-semibold text-[15px] leading-[14.4px]">
           <button className="flex flex-shrink-0 items-center gap-x-2 text-[#D0C0FF] bg-[#54399F85] rounded-full px-5 py-3 hover:bg-[#54399F85]/35">
             <img
-              src="/src/assets/homeIcon.png"
+              src="/homeIcon.png"
               alt="home-icon"
               className="w-[18px] h-[18px]"
             />
@@ -38,7 +38,7 @@ const NavBar = () => {
             Subir Obra
           </button>
           <img
-            src="/src/assets/userLogo.png"
+            src="/userLogo.png"
             alt="user-logo"
             className="hidden sm:flex w-[38px] h-[38px] rounded-full object-cover cursor-pointer"
           />
